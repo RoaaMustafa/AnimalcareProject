@@ -1,6 +1,13 @@
 var userName = prompt ('what is your name? ');
-alert ('Welcome' + userName);
-var favoriteAnimal = prompt ('What is your favoriteAnimal ? ','Cat, Dog, Birds',);
+alert ('Welcome  ' + userName);
+var yourInput = prompt ('Have you ever taken care of an animal? ');
+if (yourInput === 'yes') {
+alert ('So you are an animal lover' );
+}
+else{
+    alert ('Any way they are still cute ');
+}
+var favoriteAnimal = prompt ('What Animal do you prefer ? ','Cat, Dog, Birds',);
 if (favoriteAnimal === 'Cat') {
     document.write ('<h3>' + 'Your Faorite Animal is :' +'</h3>');
     document.write ('<img src ="http://4.bp.blogspot.com/-MzZCzWI_6Xc/UIUQp1qPfzI/AAAAAAAAHpA/OTwHCJSWFAY/s1600/cats_animals_kittens_cat_kitten_cute_desktop_1680x1050_hd-wallpaper-753974.jpeg">');
@@ -14,6 +21,6 @@ else if (favoriteAnimal === 'Birds'){
     document.write ('<img src ="https://th.bing.com/th/id/OIP.OL9igW7Y6rUk-lusgXnOPAHaGZ?pid=ImgDet&rs=1"');
 }
 else {
-  alert  ('Welcome Again '+ userName);
+  alert  ('Welcome Again  '+ userName);
 
 }
