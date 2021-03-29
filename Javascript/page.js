@@ -8,7 +8,8 @@ while (favoriteAnimal !== 'Cats' && favoriteAnimal !== 'Dogs' && favoriteAnimal 
     favoriteAnimal = prompt ('Please enter one of the following options !','Cats , Dogs , Birds ');
 }
 var age = prompt('whats your age?');
-function userAge(userAge ){ 
+check(age);
+function check(userAge ){ 
     if(userAge >= 20 && userAge < 35){
         alert('Welcome to my website!')
     
