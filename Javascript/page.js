@@ -1,3 +1,4 @@
+
 var userName = prompt ('what is your name? ');
 alert ('Welcome  ' + userName);
 
@@ -27,7 +28,7 @@ for(var i = 1 ; i <= animalNum; i++ )
     document.write(image); 
 
 
-/* 
+
 //if (favoriteAnimal === 'Cats') {
 //   document.write ('<h3>' + 'Your Faorite Animal is :' +'</h3>');
 //  document.write ('<img src ="http://4.bp.blogspot.com/-MzZCzWI_6Xc/UIUQp1qPfzI/AAAAAAAAHpA/OTwHCJSWFAY/s1600/cats_animals_kittens_cat_kitten_cute_desktop_1680x1050_hd-wallpaper-753974.jpeg">');
