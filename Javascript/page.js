@@ -7,8 +7,21 @@ var favoriteAnimal = prompt ('What Animal do you prefer ? ','Cats, Dogs, Birds',
 while (favoriteAnimal !== 'Cats' && favoriteAnimal !== 'Dogs' && favoriteAnimal !== 'Birds' ){
     favoriteAnimal = prompt ('Please enter one of the following options !','Cats , Dogs , Birds ');
 }
+var age = prompt('whats your age?');
+function userAge(userAge ){ 
+    if(userAge >= 20 && userAge < 35){
+        alert('Welcome to my website!')
+    
+    }else if(userAge < 20 || userAge > 35){
+        alert('Sorry your not allowed!')
 
+    }else{
+        alert('Have a nice day!')
+    }
 
+    return userAge;
+}
+/*
 var animalNum = prompt('How many times would you like to see from your favorite Animal ?');
 var image = '';
 for(var i = 1 ; i <= animalNum; i++ )
@@ -26,9 +39,7 @@ for(var i = 1 ; i <= animalNum; i++ )
     document.write ('<h3>' + 'Your Faorite Animal is :' +'</h3>');
     console.log(image);
     document.write(image); 
-
-
-
+*/
 //if (favoriteAnimal === 'Cats') {
 //   document.write ('<h3>' + 'Your Faorite Animal is :' +'</h3>');
 //  document.write ('<img src ="http://4.bp.blogspot.com/-MzZCzWI_6Xc/UIUQp1qPfzI/AAAAAAAAHpA/OTwHCJSWFAY/s1600/cats_animals_kittens_cat_kitten_cute_desktop_1680x1050_hd-wallpaper-753974.jpeg">');
@@ -51,4 +62,4 @@ for(var i = 1 ; i <= animalNum; i++ )
 //}
 //else{
 //    alert ('Any way they are still cute ');
-//} */
+
